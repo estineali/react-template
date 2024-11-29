@@ -1,5 +1,6 @@
 import * as React from "react";
 import Card from "./Card";
+import { DatePicker } from 'antd';
 
 export const data = [
   {
@@ -33,6 +34,7 @@ const App = () => {
     <div className="flex overflow-hidden flex-col items-center min-h-screen px-20 pt-12 pb-4 bg-black max-md:px-5">
       <div className="flex flex-col items-center w-full max-w-full max-md:max-w-full">
         <h1 className="text-4xl font-bold text-center text-white">React Template</h1>
+        <DatePicker />;
         <div className="self-stretch mt-10 max-md:max-w-full">
           <div className="flex gap-5 max-md:flex-col">
             {data.map((sentient, index) => (
