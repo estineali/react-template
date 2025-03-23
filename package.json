@@ -10,9 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource-variable/josefin-sans": "^5.2.5",
+    "@fontsource-variable/merienda": "^5.2.5",
+    "@fontsource/cormorant-garamond": "^5.2.6",
+    "@fontsource/josefin-sans": "^5.2.5",
     "antd": "^5.22.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
     "react-router": "^7.0.1"
   },
   "devDependencies": {
